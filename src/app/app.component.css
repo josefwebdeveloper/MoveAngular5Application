@@ -1,0 +1,39 @@
+.main {
+  position: relative;
+  background-color: antiquewhite;
+}
+
+.main:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+.circle {
+  position: absolute;
+  width: 10%;
+  background: darkmagenta;
+  height: 10%;
+  border-radius: 50%;
+  border: bisque solid 1px;
+}
+
+.btn-circle {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  font-size: 24px;
+  line-height: 1.33;
+
+}
+
+.button-hidden {
+  background-color: white !important;
+}
+
+i {
+  font-size: 5em;;
+}
+
+
